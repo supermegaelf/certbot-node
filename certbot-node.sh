@@ -2,7 +2,7 @@
 
 read -p "Cloudflare email: " CF_EMAIL
 read -p "Cloudflare API key: " CF_API_KEY
-read -p "SNI domain: " SNI_DOMAIN
+read -p "Node domain: " SNI_DOMAIN
 
 apt install python3-certbot-dns-cloudflare -y
 
